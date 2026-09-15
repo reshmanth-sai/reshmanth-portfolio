@@ -11,7 +11,7 @@ export default function Work() {
         <Reveal>
           <p className="font-mono text-[11px] uppercase tracking-[0.18em] text-accent">Selected work</p>
           <h2 className="mt-4 font-display text-4xl font-semibold md:text-5xl">
-            Five systems, each with a part the model can't touch.
+            Five systems, each with a part the model can&apos;t touch.
           </h2>
         </Reveal>
 

@@ -24,7 +24,6 @@ export default function GitHubCalendarClient() {
         blockSize={11}
         blockMargin={4}
         fontSize={12}
-        hideColorLegend
         errorMessage="Contribution calendar is unavailable right now."
       />
     </div>

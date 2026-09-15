@@ -15,7 +15,7 @@ export default function Experience() {
             <Reveal as="li" key={e.title} delay={i * 0.1} className="relative grid grid-cols-1 gap-3 pb-14 last:pb-0 md:grid-cols-12 md:gap-8">
               <span
                 aria-hidden
-                className="absolute -left-[2.5rem] top-2 h-2.5 w-2.5 rounded-full bg-accent ring-4 ring-bg md:hidden"
+                className="absolute -left-[calc(2rem+5px)] top-2 h-2.5 w-2.5 rounded-full bg-accent ring-4 ring-bg md:hidden"
               />
               <p className="font-mono text-xs uppercase tracking-[0.16em] text-muted md:col-span-3 md:pt-2">{e.period}</p>
               <div className="md:col-span-9 md:border-l md:border-line md:pl-8 relative">

@@ -7,7 +7,7 @@ export default function ProjectCard({ project, index }: { project: Project; inde
     : "bezel-inner";
   return (
     <article
-      className="bezel sticky rounded-[2rem] p-2"
+      className="bezel rounded-[2rem] p-2 lg:sticky"
       style={{ top: `calc(5.5rem + ${index * 0.75}rem)` }}
     >
       <div className={`rounded-[calc(2rem-0.5rem)] p-7 md:p-10 ${inner} shadow-[0_-20px_60px_-30px_rgba(0,0,0,0.9)]`}>
