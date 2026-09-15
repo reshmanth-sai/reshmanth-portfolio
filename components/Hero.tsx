@@ -36,8 +36,11 @@ export default function Hero() {
             {profile.status}
           </motion.p>
 
+          {/* Headline is the LCP element: no opacity fade so it paints before hydration. */}
           <motion.h1
-            {...item(1)}
+            initial={reduce ? false : { y: 22 }}
+            animate={{ y: 0 }}
+            transition={{ duration: 1, delay: 0.15, ease }}
             className="font-display text-[2.6rem] font-semibold leading-[1.04] sm:text-6xl lg:text-[3.6rem] xl:text-[4.4rem]"
           >
             {profile.name}
@@ -75,7 +78,8 @@ export default function Hero() {
                 alt={`${profile.fullName} photographed against a green wall`}
                 fill
                 priority
-                sizes="(max-width: 1024px) 90vw, 420px"
+                sizes="(max-width: 640px) 340px, 420px"
+                quality={82}
                 className="object-cover object-[50%_20%]"
               />
             </div>
