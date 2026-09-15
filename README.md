@@ -1,4 +1,4 @@
-# reshmanth.dev
+# reshmanth-portfolio.vercel.app
 
 Personal portfolio of Naidu Reshmanth Sai. Next.js 16, Tailwind v4, Motion.
 

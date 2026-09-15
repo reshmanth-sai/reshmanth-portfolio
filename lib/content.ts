@@ -15,7 +15,7 @@ export const profile = {
   github: "https://github.com/reshmanth-sai",
   githubUser: "reshmanth-sai",
   linkedin: "https://linkedin.com/in/reshmanth-sai",
-  siteUrl: "https://reshmanth.vercel.app",
+  siteUrl: "https://reshmanth-portfolio.vercel.app",
 };
 
 export const nav = [
