@@ -7,6 +7,10 @@ import Work from "@/components/Work";
 import Experience from "@/components/Experience";
 import Metrics from "@/components/Metrics";
 import Research from "@/components/Research";
+import Skills from "@/components/Skills";
+import Certifications from "@/components/Certifications";
+import GitHubActivity from "@/components/GitHubActivity";
+import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import SocialRail from "@/components/SocialRail";
 
@@ -23,6 +27,10 @@ export default function Home() {
         <Experience />
         <Metrics />
         <Research />
+        <Skills />
+        <Certifications />
+        <GitHubActivity />
+        <Contact />
       </main>
       <Footer />
       <SocialRail />
