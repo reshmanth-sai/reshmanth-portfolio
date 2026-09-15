@@ -9,7 +9,7 @@ export const profile = {
     "CSE student at VIT Chennai. I keep the deterministic, safety-critical logic outside the model's decision path so every output can be traced.",
   email: "naidureshmanthsai@gmail.com",
   location: "Chennai, India",
-  status: "Open to SWE and applied ML internships",
+  status: "Open to SWE and ML internships",
   resume: "/resume.pdf",
   photo: "/reshmanth.jpg",
   github: "https://github.com/reshmanth-sai",
